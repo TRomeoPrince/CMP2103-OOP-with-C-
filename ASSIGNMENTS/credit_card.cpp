@@ -18,9 +18,9 @@ int main() {
     cin >> number;
 
     if (isValid(number)) {
-        cout << "The Credit Card," << number << " is valid" << endl;
+        cout << "The Credit Card:" << number << " is valid" << endl;
     } else {
-        cout << "The Credit Card," << number << " is invalid" << endl;
+        cout << "The Credit Card:" << number << " is invalid" << endl;
     }
 
     return 0;

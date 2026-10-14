@@ -18,7 +18,8 @@ export int getPrefix(vector<int> number, int k);
 // Return true if sum of (sum of doubles) and (sum of odds) is divisible by 10 and prefixMatch is true
 export bool isValid(vector<int> number)
 {
-    if (((sumOfDoubleEvenPlace(number) + sumOfOddPlace(number)) % 10 == 0) && prefixMatched(number) && 13 <= getSize(number) && getSize(number) <= 16)
+    if (
+    ((sumOfDoubleEvenPlace(number) + sumOfOddPlace(number)) % 10 == 0) && prefixMatched(number) && (13 <= getSize(number)) && (getSize(number) <= 16))
     {
         return true;
     }

@@ -26,7 +26,7 @@ public:
 // BankCard is another child of Payment.
 class BankCard : public Payment {
 public:
-    // Same function name, but different behavior.
+    // The same function name produces a different result for card payments.
     void processPayment() override {
         cout << "Payment processed using Bank Card" << endl;
     }

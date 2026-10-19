@@ -5,7 +5,7 @@ using namespace std;
 // Chained inheritance means one class inherits from another in stages.
 // In this example: Person -> Student -> EngineeringStudent.
 
-// Person is the base class (the starting point of the chain).
+// Person is the base class where the inheritance chain begins.
 class Person {
 protected:
     // protected allows child classes to use these variables.
